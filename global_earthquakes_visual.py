@@ -33,7 +33,7 @@ data = [{
     },
 }]
 
-my_layout = Layout(title=f" \"{chart_title.upper()}.\"")
+my_layout = Layout(title=f"<b>\"{chart_title.upper()}.\"<b>")
 
 fig = {'data': data, 'layout': my_layout}
-offline.plot(fig, filename='visualised_global_earthquakes.html')
+offline.plot(fig, filename='largescale_earthquakes.html')

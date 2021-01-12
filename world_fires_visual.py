@@ -46,7 +46,7 @@ data = [{
     },
 }]
 
-my_layout = Layout(title='GLOBAL FIRES ACTIVITY')
+my_layout = Layout(title= f"<b>'GLOBAL FIRES ACTIVITY'<b>")
 
 fig = {'data': data, 'layout': my_layout}
 offline.plot(fig, filename='global_fires.html')
